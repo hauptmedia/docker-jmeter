@@ -4,7 +4,7 @@ ENV     	DEBIAN_FRONTEND noninteractive
 
 ENV		JMETER_VERSION	2.12
 ENV		JMETER_HOME	/opt/jmeter
-ENV		JMETER_DOWNLOAD_URL  http://mirror.serversupportforum.de/apache/jmeter/binaries/apache-jmeter-${JMETER_VERSION}.tgz
+ENV		JMETER_DOWNLOAD_URL  https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-${JMETER_VERSION}.tgz
 
 # install needed debian packages & clean up
 RUN		apt-get update && \
